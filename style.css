@@ -1,0 +1,58 @@
+:root{
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#main{
+    background-color: antiquewhite;
+    padding: 30vh 5%;
+    border-radius: 10px;
+    border: 2px solid purple;
+}
+
+#main h1{
+    margin-bottom: 10vh;
+    color: purple;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+#form p, #form input{
+    margin-bottom: 2vh;
+}
+
+#form input, #form button{
+    border: 2px solid purple;
+    border-radius: 5px;
+    line-height: 1.5;
+    padding: 4px;
+}
+
+#form button{
+    color: white;
+    background-color: purple;
+}
+
+#form button:hover{
+    color: white;
+    background-color: rgb(88, 5, 88);
+}
