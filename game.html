@@ -4,27 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="main">
-        <h1>Jogo da Memória</h1>
-        <div id="form-game">
-            <div id="name-gamer">
-                <p>Vez do jogador </p>
-                <p id="gamer-turn"></p>
-            </div>
-            <div id="game">
-                <div class="game-card" id="card1"></div>
-                <div class="game-card" id="card2"></div>
-                <div class="game-card" id="card3"></div>
-                <div class="game-card" id="card4"></div>
-                <div class="game-card" id="card5"></div>
-                <div class="game-card" id="card6"></div>
-                <div class="game-card" id="card7"></div>
-                <div class="game-card" id="card8"></div>
-                <div class="game-card" id="card9"></div>
-            </div>
+    <section class="main" id="main-game">
+        <h1>Jogo da Velha</h1>
+        <p id="gamer-turn"></p>
+        <div id="game">
+            <button class="game-card" id="card1"></button>
+            <button class="game-card" id="card2"></button>
+            <button class="game-card" id="card3"></button>
+            <button class="game-card" id="card4"></button>
+            <button class="game-card" id="card5"></button>
+            <button class="game-card" id="card6"></button>
+            <button class="game-card" id="card7"></button>
+            <button class="game-card" id="card8"></button>
+            <button class="game-card" id="card9"></button>
         </div>
+        <a href="./index.html" id="new-game">NOVO JOGO</a>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
